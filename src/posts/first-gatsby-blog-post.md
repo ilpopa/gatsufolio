@@ -2,6 +2,7 @@
 title: "First Gatsby Blog Post"
 date: "2020-01-18"
 featured: "../images/vapo.png"
+pageDescription: "First blog post, WoWEE!"
 ---
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit.

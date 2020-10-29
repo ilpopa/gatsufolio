@@ -2,6 +2,7 @@
 title: "Second Gatsby Blog Post"
 date: "2020-01-19"
 featured: "../images/chill.jpg"
+pageDescription: "My second blog o posts"
 ---
 Seprehenderit accusamus, explicabo eligendi necessitatibus soluta!
 

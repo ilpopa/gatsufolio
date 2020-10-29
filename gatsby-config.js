@@ -12,6 +12,7 @@ module.exports = {
     author: "Vilppu S.",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     "gatsby-transformer-remark",
     {

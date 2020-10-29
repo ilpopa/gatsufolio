@@ -1,6 +1,7 @@
 import React from "react"
 import {useStaticQuery, graphql, Link} from "gatsby"
 import Img from "gatsby-image"
+import Metadata from "../components/metadata"
 
 import blogStyles from "./blog.module.scss"
 import Layout from "../components/layout"
@@ -37,6 +38,7 @@ const Blog = () => {
     )
     return (
         <Layout>
+            <Metadata title="Blog" description="Latest blog posts" />
             <ul className={blogStyles.posts}>
                 {data.allMarkdownRemark.edges.map(edge => {
                     return (

@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import Metadata from "../components/metadata"
 
 import postStyles from "./blogPost.module.scss"
 import Layout from "../components/layout"
@@ -28,6 +29,7 @@ query($slug: String!) {
 const Blogpost = props => {
     return (
         <Layout>
+            <Metadata title={props.data.markdownRemark.frontmatter.title} description={props.data.markdownRemark.frontmatter.pageDescription} />
             <div className={postStyles.content}>
                 <h1>{props.data.markdownRemark.frontmatter.title}{" "}</h1>
                 <span className={postStyles.meta}>
